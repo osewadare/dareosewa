@@ -2,11 +2,11 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Describing myself is a little difficult but
 
-[CV](https://drive.google.com/file/d/17ldxgW-yb7o9KAq5j4vBpmPXMw58_wUN/view?usp=sharing).
+:page_with_curl: [CV] -- (https://drive.google.com/file/d/17ldxgW-yb7o9KAq5j4vBpmPXMw58_wUN/view?usp=sharing).
 
-[LinkedIn](https://www.linkedin.com/in/dare-osewa/).
+:L: [LinkedIn](https://www.linkedin.com/in/dare-osewa/).
 
 # Hobbies
 
