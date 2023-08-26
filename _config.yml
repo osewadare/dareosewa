@@ -4,7 +4,6 @@ plugins:
 title: Dare Osewa
 description: "My personal blog"
 
-url: https://dareosewa.github.io
-baseurl: /blog
+url: https://dareosewa.com
 github:
   is_project_page: false
