@@ -3,6 +3,7 @@ plugins:
   - jekyll-remote-theme
 title: Dare Osewa
 description: "My personal blog"
+logo: /assets/img/logo.png
 
 url: https://dareosewa.com
 github:
