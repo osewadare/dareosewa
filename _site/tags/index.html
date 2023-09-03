@@ -12,7 +12,7 @@
   <title>Tag Index</title>
 
   
-  <meta name="author" content="Some Person">
+  <meta name="author" content="Dare Osewa">
   
 
   <meta name="description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...">
@@ -22,7 +22,7 @@
   
 
   
-  <link rel="alternate" type="application/rss+xml" title="My Website" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Dare Osewa" href="http://localhost:4000/feed.xml">
   
 
   
@@ -75,12 +75,12 @@
   
 
   
-  <meta property="og:site_name" content="My Website">
+  <meta property="og:site_name" content="Dare Osewa">
   <meta property="og:title" content="Tag Index">
   <meta property="og:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...">
 
   
-  <meta property="og:image" content="http://localhost:4000/assets/img/avatar-icon.png">
+  <meta property="og:image" content="http://localhost:4000/assets/img/logo.png">
   
 
   
@@ -92,14 +92,14 @@
   
   <meta name="twitter:card" content="summary">
   
-  <meta name="twitter:site" content="@daattali">
-  <meta name="twitter:creator" content="@daattali">
+  <meta name="twitter:site" content="@dare_osewa_">
+  <meta name="twitter:creator" content="@dare_osewa_">
 
   <meta property="twitter:title" content="Tag Index">
   <meta property="twitter:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...">
 
   
-  <meta name="twitter:image" content="http://localhost:4000/assets/img/avatar-icon.png">
+  <meta name="twitter:image" content="http://localhost:4000/assets/img/logo.png">
   
 
   
@@ -117,7 +117,7 @@
   
 
 
-  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">My Website</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">Dare Osewa</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -125,17 +125,6 @@
     <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="/aboutme">About Me</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="https://beautifuljekyll.com">Beautiful Jekyll</a>
-                  <a class="dropdown-item" href="https://www.markdowntutorial.com/">Learn markdown</a>
-            </div>
-          </li>
-        
-          <li class="nav-item">
-            <a class="nav-link" href="https://deanattali.com">Author's home</a>
           </li>
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
@@ -151,7 +140,7 @@
     <div class="avatar-container">
       <div class="avatar-img-border">
         <a href="http://localhost:4000/">
-          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/avatar-icon.png" />
+          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/logo.png" />
         </a>
       </div>
     </div>
@@ -170,14 +159,6 @@
   <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
   <script>
     var searchjson = '[ \
-       \
-        { \
-          "title"    : "Sample blog post to learn markdown tips", \
-          "desc"     : "Sample blog post to learn markdown tips", \
-          "category" : "test", \
-          "url"      : "/2020-02-28-sample-markdown/", \
-          "date"     : "February 28, 2020" \
-        }, \
        \
         { \
           "title"    : "Flake it till you make it", \
@@ -264,28 +245,23 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
       
 
-      <a href="#books" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;books&nbsp;(1)</a><a href="#test" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;test&nbsp;(2)</a><div id="full-tags-list"><h2 id="books" class="linked-section">
+      <a href="#books" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;books&nbsp;(1)</a><a href="#test" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;test&nbsp;(1)</a><div id="full-tags-list"><h2 id="books" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
         &nbsp;books&nbsp;(1)
     </h2>
     <div class="post-list"><div class="tag-entry">
                 <a href="/2020-02-26-flake-it-till-you-make-it/">Flake it till you make it</a>
                 <div class="entry-date">
-                    <time datetime="2020-02-26T00:00:00-05:00">February 26, 2020</time>
+                    <time datetime="2020-02-26T00:00:00+00:00">February 26, 2020</time>
                 </div>
             </div></div><h2 id="test" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;test&nbsp;(2)
+        &nbsp;test&nbsp;(1)
     </h2>
     <div class="post-list"><div class="tag-entry">
-                <a href="/2020-02-28-sample-markdown/">Sample blog post to learn markdown tips</a>
-                <div class="entry-date">
-                    <time datetime="2020-02-28T00:00:00-05:00">February 28, 2020</time>
-                </div>
-            </div><div class="tag-entry">
                 <a href="/2020-02-26-flake-it-till-you-make-it/">Flake it till you make it</a>
                 <div class="entry-date">
-                    <time datetime="2020-02-26T00:00:00-05:00">February 26, 2020</time>
+                    <time datetime="2020-02-26T00:00:00+00:00">February 26, 2020</time>
                 </div>
             </div></div></div>
 
@@ -305,7 +281,7 @@
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       
 <ul class="list-inline text-center footer-links"><li class="list-inline-item">
-    <a href="mailto:someone@example.com" title="Email me">
+    <a href="mailto:osewa.dare@gmail.com" title="Email me">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
@@ -321,15 +297,7 @@
       <span class="sr-only">RSS</span>
     </a>
   </li><li class="list-inline-item">
-    <a href="https://www.facebook.com/deanattali" title="Facebook">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Facebook</span>
-   </a>
-  </li><li class="list-inline-item">
-    <a href="https://github.com/daattali" title="GitHub">
+    <a href="https://github.com/osewadare" title="GitHub">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -337,35 +305,19 @@
       <span class="sr-only">GitHub</span>
    </a>
   </li><li class="list-inline-item">
-    <a href="https://twitter.com/daattali" title="Twitter">
+    <a href="https://twitter.com/dare_osewa_" title="Twitter">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
       </span>
       <span class="sr-only">Twitter</span>
    </a>
-  </li><li class="list-inline-item">
-    <a href="https://patreon.com/DeanAttali" title="Patreon">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-patreon fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Patreon</span>
-    </a>
-  </li><li class="list-inline-item">
-    <a href="https://www.youtube.com/c/daattali" title="YouTube">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">YouTube</span>
-   </a>
   </li></ul>
 
       
       <p class="copyright text-muted">
       
-        Some Person
+        Dare Osewa
         &nbsp;&bull;&nbsp;
       
       2023
@@ -373,7 +325,7 @@
       
         &nbsp;&bull;&nbsp;
         <span class="author-site">
-          <a href="http://localhost:4000/">MyWebsite.com</a>
+          <a href="http://localhost:4000/">dareosewa.com</a>
         </span>
       
 
