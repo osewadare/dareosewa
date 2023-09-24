@@ -6,7 +6,7 @@ subtitle: This is where I share daily code adventures
 
 # Some recent mini projects
 
-[Wordwizr - NET, AWS Serverless] - (https://wordwizr.com)
-[UKSkilled - NET, AWS Serverless] - (https://ukskilled.com)
+[Wordwizr - NET, AWS Serverless](https://wordwizr.com)
+[UKSkilled - NET, AWS Serverless](https://ukskilled.com)
 
 # Posts:
